@@ -30,13 +30,6 @@ To understand the basic concepts of Git version control system and GitHub reposi
 
 ---
 
-### 📸 Output Screenshots
-(Add screenshots in screenshots folder)
-
-![Output](screenshots/output.png)
-
----
-
 ### ✅ Learning Outcome
 - Understood Git commands and workflow  
 - Learned repository management  
