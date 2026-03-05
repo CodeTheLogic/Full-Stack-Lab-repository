@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration - Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com"></script>
+</head>
+<body>
+<div class="container">
+    <h1 id="heading">Registration Form</h1>
+    <form action="insert.php" method="POST" onsubmit="return validateForm()">
+        <label>Roll No</label>
+        <input type="text" id="rollno" name="rollno">
+
+        <label>Username</label>
+        <input type="text" id="username" name="username">
+
+        <label>Email</label>
+        <input type="text" id="email" name="email">
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" name="phone">
+
+        <label>Zip Code</label>
+        <input type="text" id="zip" name="zip">
+
+        <label>Password</label>
+        <input type="password" id="password" name="password">
+
+        <div class="btn-group">
+            <button type="submit" id="submitBtn">Submit & Save</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <div class="dom-buttons">
+        <button onclick="window.location.href='view.php'">View Database (CRUD)</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
