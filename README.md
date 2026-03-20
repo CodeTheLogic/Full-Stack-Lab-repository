@@ -34,4 +34,3 @@ To design and develop a dynamic web application using PHP and MySQL that perform
 
 ---
 
-## 📂 Project Structure
